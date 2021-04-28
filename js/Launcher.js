@@ -19,6 +19,9 @@ class Launcher{
             var pointB = this.pointB;
             strokeWeight(4);
             line(pointA.x, pointA.y, pointB.x, pointB.y);
+        }  
+      }
+        attach(body){
+            this.launcher.bodyA=body;
         }
     }
-}
